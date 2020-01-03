@@ -27,7 +27,7 @@
 		24D24E6F2396334800AF7945 /* BinuHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D24E5A2396334800AF7945 /* BinuHeaders.swift */; };
 		24D24E702396334800AF7945 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D24E5B2396334800AF7945 /* Usage.swift */; };
 		24D24E722396334800AF7945 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D24E5D2396334800AF7945 /* DBHelper.swift */; };
-		24D24E732396334800AF7945 /* Binu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D24E5E2396334800AF7945 /* Binu.swift */; };
+		24D24E732396334800AF7945 /* BinuTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D24E5E2396334800AF7945 /* BinuTest.swift */; };
 		2A0E0E290950A1896057759C /* Pods_BinuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D3537794F6F599AC927BB1 /* Pods_BinuTests.framework */; };
 		F576C888CD095CD24EFE880B /* Pods_Binu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690F007AEF72462262A6AEFE /* Pods_Binu.framework */; };
 /* End PBXBuildFile section */
@@ -66,7 +66,7 @@
 		24D24E5B2396334800AF7945 /* Usage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usage.swift; sourceTree = "<group>"; };
 		24D24E5C2396334800AF7945 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24D24E5D2396334800AF7945 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
-		24D24E5E2396334800AF7945 /* Binu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binu.swift; sourceTree = "<group>"; };
+		24D24E5E2396334800AF7945 /* BinuTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinuTest.swift; sourceTree = "<group>"; };
 		2E4022D1B46845BC771747CC /* Pods-Binu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Binu.debug.xcconfig"; path = "Target Support Files/Pods-Binu/Pods-Binu.debug.xcconfig"; sourceTree = "<group>"; };
 		362B8108E17379525C06A571 /* Pods-BinuProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinuProxy.release.xcconfig"; path = "Target Support Files/Pods-BinuProxy/Pods-BinuProxy.release.xcconfig"; sourceTree = "<group>"; };
 		4B2E2B05006B287602CAD908 /* Pods-Binu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Binu.release.xcconfig"; path = "Target Support Files/Pods-Binu/Pods-Binu.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 				24D24E5B2396334800AF7945 /* Usage.swift */,
 				24D24E5C2396334800AF7945 /* Info.plist */,
 				24D24E5D2396334800AF7945 /* DBHelper.swift */,
-				24D24E5E2396334800AF7945 /* Binu.swift */,
+				24D24E5E2396334800AF7945 /* BinuTest.swift */,
 			);
 			path = Binu;
 			sourceTree = "<group>";
@@ -343,7 +343,7 @@
 				24D24E642396334800AF7945 /* ProxySettings.swift in Sources */,
 				24D24E602396334800AF7945 /* BinuTracker.swift in Sources */,
 				24D24E622396334800AF7945 /* NetStatus.swift in Sources */,
-				24D24E732396334800AF7945 /* Binu.swift in Sources */,
+				24D24E732396334800AF7945 /* BinuTest.swift in Sources */,
 				24D24E6E2396334800AF7945 /* Utility.swift in Sources */,
 				24D24E6F2396334800AF7945 /* BinuHeaders.swift in Sources */,
 				24D24E6D2396334800AF7945 /* Device.swift in Sources */,
