@@ -51,7 +51,7 @@ class ServiceManager:NSObject{
             DispatchQueue.main.async { [unowned self] in
                 if(self.isBinuStatusChanged){
                     self.isBinuStatusChanged = false
-                    Binu.onFreeStatusChanged?(self.BinuFreeStaus)
+                    onFreeStatusChanged?(self.BinuFreeStaus)
                     print("On Binu free status changed")
                 }
                 if(self.isBinuNetworkChanged){
@@ -61,7 +61,7 @@ class ServiceManager:NSObject{
                         if(self.mDataFreeHni.count>0){
                             self.setClientStatus()
                         }
-                        Binu.onConnectivityChange?(self.BinuNetStatus)
+                        onConnectivityChange?(self.BinuNetStatus)
                         
                     }else{
                         self.lifeCycle(event: "ON_START")
@@ -142,7 +142,7 @@ class ServiceManager:NSObject{
                 response in
                 if(response.error == nil){
                     if(response.response!.statusCode == 500){
-                        Binu.onBinuInitializeResponse!("Binu Initialize Failed")
+                        onBinuInitializeResponse!("Binu Initialize Failed")
                     }else{
                         self.isInitialised = true
                         print("data body = ", String(data: response.data!, encoding: String.Encoding.utf8.self) as Any)
@@ -165,10 +165,10 @@ class ServiceManager:NSObject{
                         if(self.mDataFreeHni.count>0){
                             self.setClientStatus()
                         }
-                        Binu.onBinuInitializeResponse!("Binu Initialize Successfully")
+                        onBinuInitializeResponse!("Binu Initialize Successfully")
                     }
                 }else{
-                    Binu.onBinuInitializeResponse!("Binu Initialize Failed")
+                    onBinuInitializeResponse!("Binu Initialize Failed")
                     
                 }
             }

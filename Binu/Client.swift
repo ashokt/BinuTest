@@ -21,8 +21,7 @@ class Client{
     private var mReferrer:String = ""
     private var mProductCode:String = "SW"
     public init(){
-        
-        self.mAppId = String(format:"%d",Binu.mBinuAppId)
+        self.mAppId = String(format:"%d",mBinuAppId)
         self.mGP_versionNumber = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
         self.mGP_versionCode = Bundle.main.infoDictionary?["CFBundleVersion"] as! String
         self.mAppSize = getAppSize()
