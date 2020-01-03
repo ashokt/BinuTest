@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (4.9.1)
+  - MatomoTracker (7.2.0):
+    - MatomoTracker/Core (= 7.2.0)
+  - MatomoTracker/Core (7.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MatomoTracker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MatomoTracker
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  MatomoTracker: 6f89e2561083685a360e223fb663e9ccd57c1d1a
+
+PODFILE CHECKSUM: 9add7c940820e7dde562835355737d2a6b362cf8
+
+COCOAPODS: 1.8.4
