@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BinuTest"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A Binu Test repository "
 
   spec.description  = <<-DESC
