@@ -11,11 +11,11 @@ import Alamofire
 import Network
 import os.log
 
-var mBinuAppId = Int()
-var onFreeStatusChanged: ((_ freestatus:String) -> Void)?
-var onConnectivityChange: ((_ netStatus:String) -> Void)?
-var onBinuInitializeResponse: ((_ responseData:String) -> Void)?
-var mToken = String()
+public var mBinuAppId = Int()
+public var onFreeStatusChanged: ((_ freestatus:String) -> Void)?
+public var onConnectivityChange: ((_ netStatus:String) -> Void)?
+public var onBinuInitializeResponse: ((_ responseData:String) -> Void)?
+public var mToken = String()
 
 
 public func initialize(settings:ProxySettings, deploymentType:DeploymentURLS) {
